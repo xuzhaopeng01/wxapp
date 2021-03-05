@@ -1,0 +1,7 @@
+<!--pages/announce/announce.wxml-->
+<view>
+  <view class="operations">
+    <navigator url="../index">发布约拍</navigator>
+    <navigator url="../my">发布作品</navigator>
+  </view>
+</view>

@@ -1,0 +1,7 @@
+
+.work-style{
+  margin-left: 20rpx;
+  margin-top: 10rpx;
+  height: 230rpx;
+  width: 230rpx;
+}

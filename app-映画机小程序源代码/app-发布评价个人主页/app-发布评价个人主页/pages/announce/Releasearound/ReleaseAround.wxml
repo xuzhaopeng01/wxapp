@@ -1,0 +1,16 @@
+<!--pages/announce/Releasearound/ReleaseAround.wxml-->
+<text class='announce_text'>发布</text>
+<view class="anounce_con">
+ <view class="taker_anounce">
+ <view data-sort='{{text1}}' bindtap='yuepaitap'>
+ <image class="a_picture" src='../../../images/icon/a_taker.png' mode='aspectFit'></image></view>
+ <view class="re_text">发布约拍</view>
+ </view>
+
+ <view class="taker_anounce">
+ <view data-sort='{{text2}}' bindtap='yuepaitap1'>
+ <image class="a_picture1" src='../../../images/icon/a_model.png' mode='aspectFit'></image></view>
+ <view class="re_text">发布作品</view>
+ </view>
+
+</view>

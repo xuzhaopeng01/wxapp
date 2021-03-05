@@ -1,0 +1,230 @@
+/* pages/forum/fornumdetail/fornumdetail.wxss */
+.title{
+  width: calc(100% - 50rpx);
+  padding:30rpx 25rpx 20rpx 25rpx;
+  background-color: rgb(246, 246, 248);
+  font-size: 40rpx;
+  letter-spacing: 1.5rpx;
+}/* pages/newsCenter/myWantbeat/myWantbeat.wxss */
+page{
+  background-color: rgb(246, 246, 248);
+  padding-bottom:20rpx;
+}
+.myBeatstyle{
+  width:100%;
+  min-height: 130rpx;
+  background-color: #fff;
+  padding:20rpx;
+  margin-top:20rpx;
+}
+.follow-col{
+  width: calc(100% - 40rpx);
+  padding: 10rpx 25rpx 15rpx 0;
+  display: flex;
+  justify-content: flex-start;
+}
+.myheadimg{
+  width:60rpx;
+  height:60rpx;
+  border-radius: 50%;
+}
+.name-row{
+  width:calc(95% - 40rpx);
+  display: inline-block;
+  margin-left:22rpx;
+  font-size: 32rpx;
+  vertical-align: top;
+}
+.sex-info{
+width:30rpx;
+height:30rpx;
+margin-left:10rpx;
+margin-top:8rpx;
+}
+.because{
+  width: calc(100% - 15rpx);
+  padding:15rpx 15rpx 15rpx 0;
+  font-size: 30rpx;
+  letter-spacing: 1rpx;
+}
+.resource{
+  width: calc(100% - 30rpx);
+  background-color: rgb(247, 247, 247);
+  padding:15rpx;
+  font-size: 28rpx;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  color:rgb(101, 101, 101);
+}
+.second-list{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.second_inner1{
+  width: 42%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  font-size: 29rpx;
+  color:rgb(152, 156, 159);
+}
+.comtime{
+  font-size: 27rpx;
+  color:rgb(152, 156, 159);
+  margin-top:20rpx;
+}
+.form-first-bottom{
+  margin-left:30rpx;
+  margin-right:20rpx;
+  width:clac(100% - 50rpx);
+}
+.add-container{
+  width:100%;
+  text-align: center;
+  padding-top:13rpx;
+}
+.selectclass1{
+  width:100%;
+  height:100%;
+}
+.spescial{
+  color: rgb(100, 146, 184);
+  font-size: 31rpx;
+}
+.louzhu{
+ color: rgb(152, 156, 159);
+ margin-left:15rpx;
+ font-size: 28rpx;
+}
+.commentList_contain{
+  /* border-bottom: 1rpx solid rgba(231, 229, 229,0.8); */
+  margin-bottom:10rpx;
+  background-color: #fff;
+}
+.commentList{
+  display: flex;
+  margin-bottom:20rpx;
+}
+.com-headimg6{
+width:60rpx;
+height:60rpx;
+border-radius:50%;
+margin:30rpx 30rpx 10rpx;
+
+}
+.content{
+  width:84%;
+  margin-top:25rpx;
+  font-size:32rpx;
+}
+.com-name{
+  font-size:27rpx;
+  color:rgb(149, 149, 149);
+}
+.com-ment{
+  margin-top:10rpx;
+}
+.anouncecom{
+  width:calc(100% - 50rpx);
+  display: flex;
+  background-color: #fff;
+  padding:25rpx;
+  align-items: center;
+  position: fixed;
+  bottom:0;
+  left: 0;
+}
+.new{
+  width:calc(100% - 50rpx);
+  display: flex;
+  background-color: #fff;
+  padding:25rpx;
+  align-items: center;
+  position: fixed;
+  bottom:195px;
+  left: 0; 
+}
+.inputclass{
+  width:calc(78% - 40rpx);
+  height: 47rpx;
+  line-height: 47rpx;
+  vertical-align: center;
+   margin-left: 5rpx; 
+   background-color:rgb(243, 243, 243);
+    border-radius: 10rpx;
+    margin-right:20rpx;
+    padding-left:20rpx;
+}
+.placeholder-class{
+  font-size: 28rpx;
+  font-family: PingFang-SC;
+  font-weight: medium;
+  color: rgb(183,183,183);
+}
+.fasong{
+  width:15%;
+  height: 47rpx;
+  line-height: 47rpx;
+   font-size: 30rpx;
+   text-align: center;
+   border-radius: 10rpx;
+  color: #fff;
+  background-color: #bbb;
+}
+
+.qiangshafa{
+  font-size: 33rpx;
+  font-family: PingFang-SC;
+  font-weight: medium;
+  color: rgb(183,183,183);
+  position:absolute;
+  top:300rpx;
+  left: 35%;
+}
+.reployList{
+  width:91%;
+  background-color: rgb(245, 249, 248);
+  font-size: 30rpx;
+  padding:15rpx;
+  word-wrap: break-word;
+}
+.reploy_list{
+  width:100%;
+}
+.reploy_name{
+  color:rgb(100, 146, 184);
+  font-size: 29rpx;
+  padding-left:10rpx;
+  padding-right:10rpx;
+}
+.content>.zhuzhuxia:nth-last-child(1){ /* 选择个数是3的倍数的元素 */
+  margin-bottom:30rpx;
+}
+.emjio{
+width:45rpx;
+height:45rpx;
+margin-right:10rpx;
+
+}
+.emoji-box {
+  width:100%;
+  height: 200px;
+  position: fixed;
+  bottom:0;
+  left: 0;
+}
+.emoji-cell {
+  width: 11%;
+  height: 35px;
+  display: inline-block;
+  text-align: center;
+  line-height: 35px;
+}
+::-webkit-scrollbar{
+width: 0;
+height: 0;
+color: transparent;
+}

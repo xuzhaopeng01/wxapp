@@ -1,0 +1,10 @@
+<view>
+  <textarea placeholder="请在这里向我们反馈您遇到的问题吧..."
+  placeholder-class="texts"
+  placeholder-style="color:gray"
+  maxlength="-1"
+  auto-focus="true"
+  bindblur="feedback">
+  </textarea>
+  <button class="feedback_style" formType="submit" bindtap="Back">提交</button>
+</view>

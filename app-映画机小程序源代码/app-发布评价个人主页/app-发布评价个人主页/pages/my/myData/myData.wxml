@@ -1,0 +1,33 @@
+<!--pages/my/my.wxml-->
+<view>
+<view class="user-data">
+<view class="user-datainfo">昵称</view>
+<text class="text-right">{{userInfo.nickName}}</text>
+</view>
+
+<view class="user-data">
+<view class="user-datainfo">性别</view>
+<text class="text-right"></text>
+</view>
+
+<view class="user-data">
+<view class="user-datainfo">身份</view>
+<text class="text-right"></text>
+</view>
+
+<view class="user-data">
+<view class="user-datainfo">地区</view>
+<text class="text-right"></text>
+</view>
+
+<view class="user-data">
+<view class="user-datainfo">微信号</view>
+<text class="text-right"></text>
+</view>
+
+<view class="user-data">
+<view class="user-datainfo">手机号</view>
+<text class="text-right"></text>
+</view>
+
+</view>

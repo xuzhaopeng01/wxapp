@@ -1,0 +1,12 @@
+<scroll-view scroll-y='true' style='height:100%'>
+  <view style="display: flex;flex-direction: row">
+  <image src="" class="work-style" ></image>
+  <image src="" class="work-style"></image>
+  <image src="" class="work-style" ></image>
+  </view>
+  <view style="display: flex;flex-direction: row">
+  <image src="" class="work-style" ></image>
+  <image src="" class="work-style"></image>
+  <image src="" class="work-style" ></image>
+  </view>
+  </scroll-view>

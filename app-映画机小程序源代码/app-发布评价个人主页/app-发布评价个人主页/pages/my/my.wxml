@@ -1,0 +1,46 @@
+<!--pages/my/my.wxml-->
+<view>
+  <view class="my-top">
+ 
+    <image wx:if="{{imgurl==''}}" class="userinfo-avatar" background-size="cover" mode='aspectFit' src='{{headimg}}'></image>
+    <image wx:else class="userinfo-avatar" background-size="cover" mode='aspectFill' src='{{publicurl}}{{headimg}}/{{imgurl[0]}}'></image>
+    <view class="userinfo-nametext">
+      <text class="userinfo-nickname">{{nickname}}</text>
+    </view>
+
+    <!-- <view class='user-col'>
+
+      <view>
+        <text class="followers" data-sort="follow" bindtap='bindfollow'>关注</text>
+        <text class="followers-number">{{follow}}</text>
+
+        <text class="fans" data-sort="fans" bindtap='bindfollow'>粉丝</text>
+        <text class="fans-number">{{fans}}</text>
+      </view>
+    </view> -->
+  </view>
+  <!-- <view class="sort_style">
+  <view class="sort_style_view"  bindtap="bindmybeat">动态</view>
+  <view class="sort_style_view"   bindtap="bindmyphoto">相册</view>
+  <view class="sort_style_view"  bindtap='bindmydata'>资料</view>
+  </view> -->
+
+<view class='form-column' bindtap="bindmycertification">
+    <image class='user-mysave5' src='../../images/icon/feedback.png' mode='aspectFit'></image>
+    <span class="form-row">建议反馈</span>
+    <image class='col-right' src='../../images/icon/right.png' mode='aspectFit'></image>
+  </view>
+  <view class='form-column' bindtap="bindaboutus">
+    <image class='user-mysave5' src='../../images/icon/aboutus.png' mode='aspectFit'></image>
+    <span class="form-row">关于我们</span>
+    <image class='col-right' src='../../images/icon/right.png' mode='aspectFit'></image>
+  </view>
+    <view class='form-column' bindtap="bindmyeditor">
+    <image class='user-mysave5' src='../../images/icon/setting.png' mode='aspectFit'></image>
+    <span class="form-row">编辑资料</span>
+    <image class='col-right' src='../../images/icon/right.png' mode='aspectFit'></image>
+  </view>
+
+
+
+</view>

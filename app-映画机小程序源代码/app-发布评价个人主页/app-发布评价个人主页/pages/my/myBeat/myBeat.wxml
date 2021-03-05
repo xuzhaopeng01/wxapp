@@ -1,0 +1,44 @@
+<!--index.wxml-->
+
+<!-- 约拍信息列表 -->
+<view class='yuepai-contain' wx:for="{{itemList}}" wx:key="unique" bindtap='beatdetail' data-bid="{{item.bid}}">
+  <view class="yuepai-first">
+    <image wx:if="{{item.headimgUrl==''}}" class="yuepai-headimage" mode='aspectFill' src='{{item.headimg}}'></image>
+    <image wx:else class="yuepai-headimage" mode='aspectFill' src='{{publicurl}}{{item.headimgUrl}}/{{item.headimg[0]}}'></image>
+    <span class="yuepai-second">
+      <span class="yuepai-name">{{item.name}}
+        <image src='{{item.sex==1?"../../../images/icon/boy.png":"../../../images/icon/girl.png"}}' mode='aspectFit' class="sex-info"></image>
+      </span>
+      <span class="yuepai-code">{{item.role}}</span>
+    </span>
+    <span class="yuepai-local">
+      <image src='../../../images/icon/local.png' mode='aspectFit' class='localimg'></image>
+      <span class="localtext">{{item.city}}</span>
+    </span>
+  </view>
+  <view class="second-yuepai">
+    <span class="yuemodel">{{item.behavior}}</span>·
+    <span class="yuefree">{{item.cost}}</span>
+  </view>
+  <view class="third-yuepai">{{item.command}}</view>
+  <scroll-view class="scroll-view_H" scroll-x="true">
+    <image src="{{publicurl}}{{item.beatUrl}}/{{beatimage}}" class="yuepaithird-image" mode='aspectFill' wx:for="{{item.tookimg}}" wx:key="unique" wx:for-item="beatimage" />
+  </scroll-view>
+  <!-- 约拍信息分类 -->
+  <view class="sortyuepai">
+    <span class="yuepaithird-sort" wx:for="{{item.sortlabel}}" wx:key="unique">{{item}}</span>
+  </view>
+  </view>
+  
+
+<!-- 底部灰色分割线 -->
+<view class="fixed_style">
+</view>
+
+
+<!-- 返回顶部 -->
+<view class="goTop" hidden='{{!showGoTop}}' bindtap="goTop">Top</view>
+
+<view class="map_container" wx:if="{{showmap}}"> 
+  <map class="map" id="map" longitude="{{longitude}}" latitude="{{latitude}}" scale="14" show-location="true" markers="{{markers}}" bindmarkertap="makertap"></map> 
+</view> 

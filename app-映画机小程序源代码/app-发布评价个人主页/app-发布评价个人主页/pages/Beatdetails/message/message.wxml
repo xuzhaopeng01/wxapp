@@ -1,0 +1,11 @@
+<!--pages/message/message.wxml-->
+<view>
+  <textarea placeholder="请在这里写出你的评价..."
+  placeholder-class="texts"
+  placeholder-style="color:gray"
+  maxlength="-1"
+  auto-focus="true"
+  bindblur="message">
+  </textarea>
+ <button  formType="submit" bindtap="Back" class="message_style">发表</button>
+</view>

@@ -1,0 +1,6 @@
+<!--pages/newsCenter/newCenter.wxml-->
+<view class="news-holder"> 
+
+<view class='form-column'bindtap="gotoreploy"><span class="form-row">回复我的约拍/作品评论</span><image class='col-right' src='../../images/icon/right.png' mode='aspectFit'></image></view>  
+
+</view>

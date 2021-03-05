@@ -1,0 +1,6 @@
+/* pages/userCenter/advice/advice.wxss */
+.feedback_style{
+  justify-content: center;
+  width:50%;
+  bottom:0;
+}

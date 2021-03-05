@@ -1,0 +1,6 @@
+/* pages/message/message.wxss */
+.message_style{
+  position:fixed;
+  width:100%;
+  bottom:0
+}
